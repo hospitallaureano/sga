@@ -67,3 +67,4 @@ To automated installation you need to set up the following environment variables
 **Default attendance place**
 
 - NOVOSGA_PLACE_NAME
+# sga
