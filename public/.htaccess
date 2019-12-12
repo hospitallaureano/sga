@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]
+SetEnv APP_ENV dev
+SetEnv LANGUAGE pt_BR
+SetEnv DATABASE_URL mysql://username:password@mysqlhost:3306/bdname?charset=utf8mb4&serverVersion=5.7
